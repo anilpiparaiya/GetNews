@@ -1,13 +1,8 @@
-# Wordle
-A 5 letter word guessing website very similar to the popular Wordle game.
+# React + Vite
 
-- Link to the Wordle website: https://anilpiparaiya.github.io/Wordle/
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Game Rules
+Currently, two official plugins are available:
 
-- The player has to guess the Wordle in six attempts or less.
-- Every word, which is entered should be in the word list.
-- If the letter is correct, the color would turn green.
-- If the letter is correct but placed wrong then it would turn yellow.
-- An incorrect letter turns gray.
-- Letters can be used more than one time.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
